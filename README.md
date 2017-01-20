@@ -6,8 +6,8 @@
 * `ember electron` - Run app in Electron with live-reload server
 * `ember electron:test` - Test the app using Electron
 * `ember electron:test --server` - Test with Electron in development server mode
-* `ember electron:package` - Create binaries (.app, .exe, etc) for your app
-* `ember electron:installer` - Create installers for your app
+* `ember electron:package` - Create customized binaries (.app, .exe, etc) for your app
+* `ember electron:ship` - Create distributable installers for your app
 
 Ember-Electron builds on prior work done by @brzpegasus (author of [`ember-cli-nwjs`](https://github.com/brzpegasus/ember-cli-nwjs)) and @joostdevries (author of [`ember-cli-remote-inspector`](https://github.com/joostdevries/ember-cli-remote-inspector)).
 
