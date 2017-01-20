@@ -65,7 +65,7 @@
     "broccoli-merge-trees": "^1.1.0",
     "broccoli-string-replace": "^0.1.1",
     "chalk": "^1.1.0",
-    "electron-packager": "^8.3.0",
+    "electron-forge": "^2.7.2",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-version-checker": "^1.1.6",
     "ember-inspector": "2.0.4",
@@ -79,9 +79,6 @@
     "rsvp": "^3.2.1",
     "socket.io": "^1.4.8",
     "testem": "^1.4.0"
-  },
-  "optionalDependencies": {
-    "electron-winstaller": "^2.5.0"
   },
   "ember-addon": {
     "defaultBlueprint": "ember-electron"

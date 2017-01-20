@@ -7,6 +7,7 @@
 * `ember electron:test` - Test the app using Electron
 * `ember electron:test --server` - Test with Electron in development server mode
 * `ember electron:package` - Create binaries (.app, .exe, etc) for your app
+* `ember electron:installer` - Create installers for your app
 
 Ember-Electron builds on prior work done by @brzpegasus (author of [`ember-cli-nwjs`](https://github.com/brzpegasus/ember-cli-nwjs)) and @joostdevries (author of [`ember-cli-remote-inspector`](https://github.com/joostdevries/ember-cli-remote-inspector)).
 
@@ -60,7 +61,7 @@ To test your app, run `ember electron:test`. If you prefer the live-reload mode,
 * `--filter` - A string to filter tests to run
 
 ## Packaging
-Ember-Electron comes with an integrated packager to create binaries (.app, .exe etc), which can be run with `ember electron:package`. By default, the packager creates binaries for all platforms and architectures using your app's name and version as defined in `package.json`. Under the hood, it uses the popular [electron-packager](https://github.com/maxogden/electron-packager) module.
+Ember-Electron comes with an integrated packager to create binaries (.app, .exe etc), which can be run with `ember electron:package`. By default, the packager creates binaries for all platforms and architectures using your app's name and version as defined in `package.json`. Under the hood, it uses the [Electron Forge](https://github.com/electron-userland/electron-forge) module.
 
 To create standalone binaries of your Ember App, simply run the following command.
 ```
